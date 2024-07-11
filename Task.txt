@@ -1,0 +1,6 @@
+Business Understanding
+Data Understanding
+EDA
+Data cleaning
+Visualisation
+Multiple linear regression

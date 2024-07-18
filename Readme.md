@@ -45,5 +45,25 @@ The goal is to determine if large houses tend to have high prices in the market.
 3. **Develop a Linear Regression Model to Predict Housing Prices**   
 Create a multiple linear regression model using the identified key determinants to predict the house prices. Evaluate the model's performance using appropriate metrics such as R-squared, RMSE, and MAE.  
 
-4. **Provide Insights and Recommendations for Real Estate Decision-Making:**   
-Generate actionable insights from the model's results to help the client make informed decisions about buying and selling houses in King County. Highlight the most influential factors and suggest strategies to maximize property value.
+## Column Names and descriptions for Kings County Data Set
+* **id** - unique identified for a house
+* **Date** - house was sold
+* **Price** -  is prediction target
+* **bedroomsNumber** -  of Bedrooms/House
+* **bathroomsNumber** -  of bathrooms/bedrooms
+* **sqft_livingsquare** -  footage of the home
+* **sqft_lotsquare** -  footage of the lot
+* **floorsTotal** -  floors (levels) in house
+* **waterfront** - House which has a view to a waterfront
+* **view** - Has been viewed
+* **condition** - How good the condition is ( Overall )
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house apart from basement
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Built Year
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors

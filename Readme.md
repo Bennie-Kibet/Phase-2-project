@@ -242,7 +242,31 @@ Although there is price variation, smaller houses (with sqft_living below 2,000)
 
 We have developed an initial baseline model to predict house prices using the living area (sqft_living) as the sole predictor. While this model explains approximately 48.78% of the variance in house prices, there is significant room for improvement. The model's predictions have an average error (MAE) of approximately 0.3051 units, and the overall accuracy can be enhanced by considering additional factors.
 
-Based on our feature selection
+Based on our feature selection, models were generated.
+
+**Choice and Explanation**
+
+model 1
+
+   model: LinearRegression() mse: 0.1162188951789486 mae: 0.2722363510096844 r2: 0.5439712942866779
+
+model 2
+
+   model: LinearRegression() mse: 0.09994733389718902 mae: 0.25174208308193496 r2: 0.6078189071884387
+
+model 3
+
+   model: LinearRegression() mse: 0.0645459516841363 mae: 0.1993512786564516 r2: 0.7467295936669427
+
+**Choose: Model 3.**
+
+* Lower Error Metrics (MSE and MAE): The third model has significantly lower MSE (0.0645) and MAE (0.1994) compared to the other two models. Lower values of MSE and MAE indicate that the model's predictions are closer to the actual values, suggesting better accuracy.
+
+* Higher R-squared (R2): The third model also has the highest R-squared value (0.7467), indicating that it explains a larger proportion of the variance in the dependent variable compared to the other models. A higher R-squared generally means that the model fits the data better.
+
+* Better Overall Performance: Based on these metrics, the third model outperforms the other two models in terms of accuracy and explanatory power. It strikes a better balance between predicting close to actual values (lower MSE and MAE) and explaining variability in the data (higher R-squared).
+
+
 
 ## Model diagnostic
 
